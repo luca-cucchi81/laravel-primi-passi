@@ -1,15 +1,18 @@
 header{
+    background-color: $white_color;
     text-align: center;
-    li{
-        display: inline-block;
-        padding: 15px;
-    &:hover{
-        background-color: $cyan_color;
-    }
-    a{
-        color: $black_color;
-        font-size: 1.5em;
-        font-weight: bold;
-    }
+    .main-menu{
+        li{
+            display: inline-block;
+            padding: 15px;
+        &:hover{
+            background-color: $cyan_color;
+        }
+        a{
+            color: $black_color;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        }
     }
 }
