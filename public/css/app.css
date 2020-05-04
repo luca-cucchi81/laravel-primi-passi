@@ -1,0 +1,53 @@
+/* RESET CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* TAG GENERICI */
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* STILE HEADER */
+
+header {
+  text-align: center;
+}
+
+header li {
+  display: inline-block;
+  padding: 15px;
+}
+
+header li:hover {
+  background-color: cyan;
+}
+
+header li a {
+  color: #000;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/* STILE MAIN */
+
+/* STILE FOOTER */
+
