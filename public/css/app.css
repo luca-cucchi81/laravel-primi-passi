@@ -82,7 +82,7 @@ main .cards .card {
 
 main .cards .card:hover {
   transform: scale(1.1);
-  transition-duration: 1.5s;
+  transition: 0.8s ease;
 }
 
 main .cards .card:hover img {
@@ -100,7 +100,7 @@ main .cards .card:hover .links {
 
 main .cards .card:hover .links h3 {
   padding-bottom: 20px;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 main .cards .card:hover .links h3 a {

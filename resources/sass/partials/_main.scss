@@ -7,6 +7,7 @@ main{
     .cards{
         display: flex;
         flex-wrap: wrap;
+
         .card{
             margin: 20px;
             display: flex;
@@ -23,7 +24,7 @@ main{
 
             &:hover{
                 transform: scale(1.1);
-                transition-duration: 1.5s;
+                transition: .8s ease;
                 img{
                     opacity: 0.8;
                 }
@@ -36,7 +37,7 @@ main{
                     background-color: rgba(0,0,0,0.5);
                     h3{
                         padding-bottom: 20px;
-                        font-size: 1.5em;
+                        font-size: 1.2em;
                         a{
                             color: $white_color;
                         }
