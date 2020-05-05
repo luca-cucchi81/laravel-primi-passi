@@ -20,6 +20,7 @@ body {
 
 a {
   text-decoration: none;
+  color: #000;
 }
 
 /* STILE HEADER */
@@ -45,6 +46,40 @@ header .main-menu li a {
 }
 
 /* STILE MAIN */
+
+main {
+  padding: 0 20px;
+}
+
+main h2 {
+  margin-left: 20px;
+  color: #002d75;
+}
+
+main .cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main .cards .card {
+  margin: 20px;
+  width: calc(100% / 3 - 40px);
+  display: flex;
+  position: relative;
+}
+
+main .cards .card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+main .cards .card .links {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 
 /* STILE FOOTER */
 

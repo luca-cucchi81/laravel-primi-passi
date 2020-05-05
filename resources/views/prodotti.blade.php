@@ -153,8 +153,8 @@
 
         <main>
             @if (!empty($lunghe))
+                <h2>Le Lunghe</h2>
                 <div class="cards">
-                    <h2>Le Lunghe</h2>
                     @foreach ($lunghe as $key => $card)
                         <div class="card">
                             <img src="{{$card['src']}}" alt="{{$card['titolo']}}">
@@ -171,8 +171,8 @@
             @endif
 
             @if (!empty($corte))
+                <h2>Le Corte</h2>
                 <div class="cards">
-                    <h2>Le Corte</h2>
                     @foreach ($corte as $key => $card)
                         <div class="card">
                             <img src="{{$card['src']}}" alt="{{$card['titolo']}}">
@@ -189,8 +189,8 @@
             @endif
 
             @if (!empty($cortissime))
+                <h2>Le Cortissime</h2>
                 <div class="cards">
-                    <h2>Le Cortissime</h2>
                     @foreach ($cortissime as $key => $card)
                         <div class="card">
                             <img src="{{$card['src']}}" alt="{{$card['titolo']}}">
