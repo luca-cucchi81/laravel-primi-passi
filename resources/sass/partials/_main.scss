@@ -9,7 +9,18 @@ main{
         flex-wrap: wrap;
         .card{
             margin: 20px;
+            @media only screen and (min-width: 320px) and (max-width: 480px) {
+            width: calc(100% / 1 - 40px);
+            }
+
+            @media only screen and (min-width : 480px) and (max-width : 1024px){
+            width: calc(100% / 2 - 40px);
+            }
+
+            @media only screen and (min-width: 1024px){
             width: calc(100% / 3 - 40px);
+            }
+
             display: flex;
             position: relative;
             &:hover{
