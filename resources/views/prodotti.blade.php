@@ -142,23 +142,14 @@
 @endphp
 
 <!DOCTYPE html>
-<html lang="it" dir="ltr">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="{{asset('css/app.css')}}">
         <title>La Molisana</title>
     </head>
     <body>
-        <header>
-            <img src="{{asset('img/logo.png')}}" alt="logo">
-            <nav class="navbar">
-                <ul class="main-menu">
-                    <li><a href="{{route('home')}}">Home</a></li>
-                    <li><a href="#">Prodotti</a></li>
-                    <li><a href="#">News</a></li>
-                </ul>
-            </nav>
-        </header>
+        @include('partials.header')
 
         <main>
             @if (!empty($lunghe))
@@ -215,5 +206,7 @@
                 </div>
             @endif
         </main>
+
+        @include('partials.footer')
     </body>
 </html>
