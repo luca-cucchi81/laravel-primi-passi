@@ -48,6 +48,7 @@ header .main-menu li a {
 /* STILE MAIN */
 
 main {
+  background-image: url(/images/fondo-pag-speciali.jpg?2f95c43d2f5c6ce37bf1838709b316a3);
   padding: 40px;
 }
 
@@ -86,7 +87,7 @@ main .cards .card:hover {
 }
 
 main .cards .card:hover img {
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 main .cards .card:hover .links {
