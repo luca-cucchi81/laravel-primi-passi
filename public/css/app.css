@@ -141,12 +141,13 @@ main .cards .card .links {
 
 footer {
   background-color: #fff;
-  padding: 40px;
+  padding: 0 40px;
 }
 
 footer .footer-main {
   width: 60%;
   margin: 0 auto;
+  padding-top: 40px;
   display: flex;
   justify-content: space-around;
 }

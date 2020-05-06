@@ -1,9 +1,10 @@
 footer{
     background-color: $white_color;
-    padding: 40px;
+    padding: 0 40px;
     .footer-main{
         width: 60%;
         margin: 0 auto;
+        padding-top: 40px;
         display: flex;
         justify-content: space-around;
         @media screen and (max-width : 1024px){
