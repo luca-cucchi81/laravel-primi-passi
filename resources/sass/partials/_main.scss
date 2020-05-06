@@ -3,7 +3,11 @@ main{
     padding: 40px;
     h2{
         margin-left: 20px;
-        color: $blue_color;
+        display: inline-block;
+        padding: 5px 10px;
+        background: $blue_color;
+        border-radius: 5px;
+        color: $white_color;
     }
     .cards{
         display: flex;
