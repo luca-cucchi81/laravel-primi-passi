@@ -12,7 +12,7 @@
                 <ul class="main-menu">
                     <li><a href="{{route('index')}}">Home</a></li>
                     <li><a href="{{route('prodotti')}}">Prodotti</a></li>
-                    <li><a href="#">News</a></li>
+                    <li><a href="{{route('news')}}">News</a></li>
                 </ul>
             </nav>
         </header>
