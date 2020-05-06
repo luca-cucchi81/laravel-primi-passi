@@ -1,0 +1,34 @@
+footer{
+    background-color: $white_color;
+    padding: 40px;
+    .footer-main{
+        width: 60%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        @media screen and (max-width : 1024px){
+        flex-direction: column;
+        }
+
+        .footer-right{
+            display: flex;
+            flex-wrap: wrap;
+            @media screen and (max-width : 1024px){
+            flex-direction: column;
+            padding-top: 20px;
+            }
+            .footer-card{
+                width: calc(100% / 2);
+                line-height: 2em;
+                h3{
+                    color: $grey_color;
+                }
+            }
+            &:last-child{
+                h3{
+                    padding-top: 20px;
+                }
+            }
+        }
+    }
+}

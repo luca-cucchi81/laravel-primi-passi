@@ -23,6 +23,14 @@ a {
   color: #000;
 }
 
+dd {
+  color: grey;
+}
+
+dd a {
+  color: grey;
+}
+
 /* STILE HEADER */
 
 header {
@@ -130,4 +138,47 @@ main .cards .card .links {
 }
 
 /* STILE FOOTER */
+
+footer {
+  background-color: #fff;
+  padding: 40px;
+}
+
+footer .footer-main {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 1024px) {
+  footer .footer-main {
+    flex-direction: column;
+  }
+}
+
+footer .footer-main .footer-right {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1024px) {
+  footer .footer-main .footer-right {
+    flex-direction: column;
+    padding-top: 20px;
+  }
+}
+
+footer .footer-main .footer-right .footer-card {
+  width: calc(100% / 2);
+  line-height: 2em;
+}
+
+footer .footer-main .footer-right .footer-card h3 {
+  color: grey;
+}
+
+footer .footer-main .footer-right:last-child h3 {
+  padding-top: 20px;
+}
 

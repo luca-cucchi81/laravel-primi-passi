@@ -6,3 +6,10 @@ a{
     text-decoration: none;
     color: $black_color;
 }
+
+dd{
+    color: $grey_color;
+    a{
+        color: $grey_color;
+    }
+}
