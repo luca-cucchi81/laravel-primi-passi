@@ -173,10 +173,6 @@ header .main-menu li a {
   width: calc(3%);
   position: absolute;
   top: calc(50vh);
-  display: inline-block;
-  padding: 10px;
-  background: #fff;
-  border-radius: 100%;
 }
 
 .container2 #arrow-left:hover,

@@ -97,10 +97,6 @@
         width: calc(3%);
         position: absolute;
         top: calc(50vh);
-        display: inline-block;
-        padding: 10px;
-        background: #fff;
-        border-radius: 100%;
         &:hover{
             transform: scale(1.2);
         }
