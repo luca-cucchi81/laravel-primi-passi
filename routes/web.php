@@ -13,9 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-})->name('index');
+// Route::get('/', function () {
+//     return view('index');
+// })->name('index');
+
+Route::get('/', 'ProductController@index')->name('index');
 
 Route::get('/prodotti', function () {
     return view('prodotti');
